@@ -1,16 +1,16 @@
-# vite-preact-ts-template
+# youtube-loop
 
-[![build](https://github.com/remarkablemark/vite-preact-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/vite-preact-ts-template/actions/workflows/build.yml)
+[![build](https://github.com/remarkablemark/youtube-loop/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/youtube-loop/actions/workflows/build.yml)
 
-Vite `preact-ts` template.
+Loop YouTube videos.
 
 ## Install
 
 Clone the repository:
 
 ```sh
-git clone https://github.com/remarkablemark/vite-preact-ts-template.git
-cd vite-preact-ts-template
+git clone https://github.com/remarkablemark/youtube-loop.git
+cd youtube-loop
 ```
 
 Install the dependencies:
@@ -48,10 +48,6 @@ Your app is ready to be deployed!
 ### `npm run lint`
 
 Runs ESLint
-
-### `npm test`
-
-Runs Jest tests.
 
 ## License
 
