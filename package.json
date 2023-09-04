@@ -10,7 +10,7 @@
     "lint:tsc": "tsc --noEmit",
     "postinstall": "husky install",
     "preview": "vite preview",
-    "start": "vite"
+    "start": "vite --open"
   },
   "dependencies": {
     "preact": "^10.16.0"
