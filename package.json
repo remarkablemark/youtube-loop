@@ -13,14 +13,14 @@
     "start": "vite --open"
   },
   "dependencies": {
-    "preact": "^10.16.0"
+    "preact": "^10.17.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@preact/preset-vite": "^2.5.0",
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
-    "@typescript-eslint/parser": "^6.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
     "autoprefixer": "^10.4.15",
     "eslint": "^8.48.0",
     "eslint-plugin-prettier": "^5.0.0",
