@@ -1,19 +1,17 @@
 import type { JSX } from 'preact';
-import { useState } from 'preact/hooks';
 import YouTubeVideoId from 'youtube-video-id';
 
+import { useStore } from '../../hooks';
+
 export default function Input() {
-  const [videoId, setVideoId] = useState('');
+  const setVideoId = useStore((state) => state.setVideoId);
 
   function onInput(event: JSX.TargetedEvent<HTMLInputElement>) {
     setVideoId(YouTubeVideoId(event.currentTarget.value));
   }
 
-  // eslint-disable-next-line no-console
-  console.log(videoId);
-
   return (
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-4">
       <form class="container mx-4">
         <label
           for="input"
