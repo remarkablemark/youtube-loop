@@ -13,7 +13,8 @@
     "start": "vite --open"
   },
   "dependencies": {
-    "preact": "10.17.1"
+    "preact": "10.17.1",
+    "youtube-video-id": "1.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
