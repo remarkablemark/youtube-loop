@@ -1,4 +1,17 @@
+import type { JSX } from 'preact';
+import { useState } from 'preact/hooks';
+import YouTubeVideoId from 'youtube-video-id';
+
 export default function Input() {
+  const [videoId, setVideoId] = useState('');
+
+  function onInput(event: JSX.TargetedEvent<HTMLInputElement>) {
+    setVideoId(YouTubeVideoId(event.currentTarget.value));
+  }
+
+  // eslint-disable-next-line no-console
+  console.log(videoId);
+
   return (
     <div class="flex justify-center">
       <form class="container mx-4">
@@ -34,6 +47,7 @@ export default function Input() {
             placeholder="Paste YouTube URL"
             required
             type="search"
+            onInput={onInput}
           />
         </div>
       </form>
