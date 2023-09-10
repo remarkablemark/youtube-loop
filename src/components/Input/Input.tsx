@@ -11,7 +11,7 @@ export default function Input() {
   }
 
   return (
-    <div class="flex justify-center mb-4">
+    <div class="flex justify-center">
       <form class="container mx-4">
         <label
           for="input"
