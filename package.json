@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "preact": "10.17.1",
-    "youtube-video-id": "1.0.0"
+    "youtube-video-id": "1.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
