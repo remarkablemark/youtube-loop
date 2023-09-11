@@ -1,7 +1,7 @@
 import type { JSX } from 'preact';
 import YouTubeVideoId from 'youtube-video-id';
 
-import { capitalize } from '../utils';
+import { capitalize, changeQueryParameter } from '../utils';
 import { useStore } from './useStore';
 
 export function useOnInput(type: 'timeEnd' | 'timeStart' | 'videoId') {
@@ -18,13 +18,23 @@ export function useOnInput(type: 'timeEnd' | 'timeStart' | 'videoId') {
 
     switch (type) {
       case 'timeEnd':
-      case 'timeStart':
-        setValue((parseInt(value, 10) || 0) as never);
+      case 'timeStart': {
+        const seconds = parseInt(value, 10) || 0;
+        setValue(seconds as never);
+        if (seconds) {
+          changeQueryParameter({ [type]: String(seconds) });
+        }
         break;
+      }
 
-      case 'videoId':
-        YouTubeVideoId(value) && setValue(YouTubeVideoId(value) as never);
+      case 'videoId': {
+        const videoId = YouTubeVideoId(value);
+        if (videoId) {
+          setValue(videoId as never);
+          changeQueryParameter({ [type]: videoId });
+        }
         break;
+      }
 
       default:
         throw new TypeError(`Invalid type: ${type}`);
