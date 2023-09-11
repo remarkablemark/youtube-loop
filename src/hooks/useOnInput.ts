@@ -4,7 +4,7 @@ import YouTubeVideoId from 'youtube-video-id';
 import { capitalize } from '../utils';
 import { useStore } from './useStore';
 
-export function useOnInput(type: 'timeStart' | 'videoId') {
+export function useOnInput(type: 'timeEnd' | 'timeStart' | 'videoId') {
   const setValue = useStore(
     (state) => state[`set${capitalize(type)}` as keyof typeof state],
   );
@@ -17,8 +17,9 @@ export function useOnInput(type: 'timeStart' | 'videoId') {
     const { value } = event.currentTarget;
 
     switch (type) {
+      case 'timeEnd':
       case 'timeStart':
-        setValue(parseInt(value, 10) as never);
+        setValue((parseInt(value, 10) || 0) as never);
         break;
 
       case 'videoId':
