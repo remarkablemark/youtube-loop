@@ -1,5 +1,6 @@
 import Input from '../Input';
 import Logo from '../Logo';
+import Options from '../Options';
 import Player from '../Player';
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
       <Logo />
       <Input />
       <Player />
+      <Options />
     </>
   );
 }

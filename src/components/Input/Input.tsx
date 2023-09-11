@@ -1,20 +1,18 @@
-import type { JSX } from 'preact';
-import YouTubeVideoId from 'youtube-video-id';
-
-import { useStore } from '../../hooks';
+import { useOnInput, useState } from '../../hooks';
 
 export default function Input() {
-  const setVideoId = useStore((state) => state.setVideoId);
+  const onInput = useOnInput();
+  const state = useState();
 
-  function onInput(event: JSX.TargetedEvent<HTMLInputElement>) {
-    setVideoId(YouTubeVideoId(event.currentTarget.value));
+  if (state.videoId) {
+    return null;
   }
 
   return (
     <div class="flex justify-center">
       <form class="container mx-4">
         <label
-          for="input"
+          for="youtube-url"
           class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
         >
           Paste YouTube URL
@@ -41,7 +39,7 @@ export default function Input() {
 
           <input
             class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:outline-none"
-            id="input"
+            id="youtube-url"
             placeholder="Paste YouTube URL"
             required
             type="search"
