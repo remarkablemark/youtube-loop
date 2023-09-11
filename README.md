@@ -1,8 +1,20 @@
-# youtube-loop
+# YouTube Loop
 
+[![version](https://badgen.net/github/release/remarkablemark/youtube-loop)](https://github.com/remarkablemark/youtube-loop/releases)
 [![build](https://github.com/remarkablemark/youtube-loop/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/youtube-loop/actions/workflows/build.yml)
+![GitHub last commit](https://img.shields.io/github/last-commit/remarkablemark/youtube-loop)
 
-Loop YouTube videos.
+:tv: Loop YouTube videos: https://remarkabl.org/youtube-loop
+
+Built with:
+
+- [Preact](https://preactjs.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [zustand](https://github.com/pmndrs/zustand)
+- [react-youtube](https://github.com/tjallingt/react-youtube)
+- [youtube-video-id](https://github.com/remarkablemark/youtube-video-id)
+
+Inspired by the [Replit](https://replit.com/@remarkablemark/YouTube-IFrame-player-API-loop).
 
 ## Install
 
