@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.github-corner {
+  @apply hidden;
+}
+
+@media screen(sm) {
+  .github-corner {
+    @apply block;
+  }
+}
