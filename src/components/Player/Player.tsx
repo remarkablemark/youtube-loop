@@ -1,20 +1,26 @@
 import YouTube from 'react-youtube';
 
-import { useStore } from '../../hooks';
+import { useState } from '../../hooks';
 
 export default function Player() {
-  const videoId = useStore((state) => state.videoId);
+  const state = useState();
 
-  if (!videoId) {
+  if (!state.videoId) {
     return null;
   }
+
+  const opts = {
+    playerVars: {
+      start: state.timeStart,
+    },
+  };
 
   return (
     <div class="flex justify-center mt-4">
       <div class="container flex justify-center">
         {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
         {/* @ts-ignore */}
-        <YouTube videoId={videoId} />
+        <YouTube videoId={state.videoId} opts={opts} />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import { useOnInput, useState } from '../../hooks';
 
 export default function Input() {
-  const onInput = useOnInput();
+  const onInput = useOnInput('videoId');
   const state = useState();
 
   if (state.videoId) {
