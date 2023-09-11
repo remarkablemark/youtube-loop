@@ -26,7 +26,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <input
-              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-red-600"
               id="videoId"
               onInput={onInputVideoId}
               placeholder="YouTube video ID"
@@ -50,7 +50,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <input
-              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-red-600"
               id="timeStart"
               onInput={onInputTimeStart}
               placeholder="Seconds"
@@ -73,7 +73,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <input
-              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-red-600"
               id="timeEnd"
               onInput={onInputTimeEnd}
               placeholder="Seconds"

@@ -12,7 +12,7 @@ export default function Input() {
     <div class="flex justify-center">
       <form class="container mx-4">
         <label
-          for="youtube-url"
+          for="youtubeUrl"
           class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
         >
           Paste YouTube URL
@@ -38,8 +38,8 @@ export default function Input() {
           </div>
 
           <input
-            class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:outline-none"
-            id="youtube-url"
+            class="block border-2 w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-red-600 focus:border-red-600 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-600 dark:focus:border-red-600 focus:outline-none"
+            id="youtubeUrl"
             placeholder="Paste YouTube URL"
             required
             type="search"
