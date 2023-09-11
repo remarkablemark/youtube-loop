@@ -24,7 +24,7 @@ jobs:
       - name: Build app
         run: npm run build
         env:
-          BASE: /${{ github.event.repository.name }}/
+          VITE_BASE_URL: /${{ github.event.repository.name }}/
 
       - name: Deploy
         if: github.ref == 'refs/heads/master'
