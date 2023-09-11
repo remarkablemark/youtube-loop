@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/remarkablemark/youtube-loop/compare/v1.0.0...v1.1.0) (2023-09-11)
+
+
+### Features
+
+* change query parameters in history on input change ([787fa94](https://github.com/remarkablemark/youtube-loop/commit/787fa94cb775f1c424214f2da11cf6c36fcc0845))
+* load and store state if query parameters are present ([2d38c67](https://github.com/remarkablemark/youtube-loop/commit/2d38c673164cf2b0fa13aaa90ce2262619d5dc8a))
+
 ## 1.0.0 (2023-09-11)
 
 
