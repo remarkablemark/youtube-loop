@@ -4,6 +4,7 @@ export default function Options() {
   const onInputTimeEnd = useOnInput('timeEnd');
   const onInputTimeStart = useOnInput('timeStart');
   const onInputVideoId = useOnInput('videoId');
+  const onInputWidth = useOnInput('width');
   const state = useState();
 
   if (!state.videoId) {
@@ -11,7 +12,7 @@ export default function Options() {
   }
 
   return (
-    <div class="flex justify-center mt-10">
+    <div class="flex justify-center my-10">
       <form class="w-full max-w-sm">
         {/* videoId */}
         <div class="md:flex md:items-center">
@@ -80,6 +81,32 @@ export default function Options() {
               type="number"
               value={state.timeEnd}
             />
+          </div>
+        </div>
+
+        {/* width */}
+        <div class="md:flex md:items-center mt-2">
+          <div class="md:w-1/3">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4"
+              for="width"
+            >
+              Width
+            </label>
+          </div>
+
+          <div class="md:w-2/3">
+            <select
+              class="bg-gray-200 border-2 border-gray-200 rounded w-full py-2 p-2.5 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-red-600"
+              id="width"
+              onInput={onInputWidth}
+            >
+              {[360, 480, 640, 720, 1080].map((value) => (
+                <option value={value} selected={state.width === value}>
+                  {value}
+                </option>
+              ))}
+            </select>
           </div>
         </div>
       </form>

@@ -7,6 +7,7 @@ export default function Load() {
   const setTimeEnd = useStore((store) => store.setTimeEnd);
   const setTimeStart = useStore((store) => store.setTimeStart);
   const setVideoId = useStore((store) => store.setVideoId);
+  const setWidth = useStore((store) => store.setWidth);
 
   useEffect(() => {
     for (const [name, value] of getQueryParameters()) {
@@ -30,6 +31,14 @@ export default function Load() {
         case 'videoId':
           setVideoId(value);
           break;
+
+        case 'width': {
+          const width = parseInt(value, 10);
+          if (width >= 200 && width <= 1080) {
+            setWidth(width);
+          }
+          break;
+        }
       }
     }
   }, []);

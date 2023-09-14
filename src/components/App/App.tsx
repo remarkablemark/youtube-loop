@@ -7,11 +7,11 @@ import Player from '../Player';
 export default function App() {
   return (
     <>
+      <Load />
       <Logo />
       <Input />
       <Player />
       <Options />
-      <Load />
     </>
   );
 }

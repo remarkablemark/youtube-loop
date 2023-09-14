@@ -4,7 +4,9 @@ import YouTubeVideoId from 'youtube-video-id';
 import { capitalize, changeQueryParameter } from '../utils';
 import { useStore } from './useStore';
 
-export function useOnInput(type: 'timeEnd' | 'timeStart' | 'videoId') {
+export function useOnInput(
+  type: 'timeEnd' | 'timeStart' | 'videoId' | 'width',
+) {
   const setValue = useStore(
     (state) => state[`set${capitalize(type)}` as keyof typeof state],
   );
@@ -13,7 +15,9 @@ export function useOnInput(type: 'timeEnd' | 'timeStart' | 'videoId') {
     throw new TypeError('setValue must be a function');
   }
 
-  return function onInput(event: JSX.TargetedEvent<HTMLInputElement>) {
+  return function onInput(
+    event: JSX.TargetedEvent<HTMLInputElement | HTMLSelectElement>,
+  ) {
     const { value } = event.currentTarget;
 
     switch (type) {
@@ -32,6 +36,15 @@ export function useOnInput(type: 'timeEnd' | 'timeStart' | 'videoId') {
         if (videoId) {
           setValue(videoId as never);
           changeQueryParameter({ [type]: videoId });
+        }
+        break;
+      }
+
+      case 'width': {
+        const width = parseInt(value, 10);
+        if (width >= 200 && width <= 1080) {
+          setValue(width as never);
+          changeQueryParameter({ [type]: String(width) });
         }
         break;
       }

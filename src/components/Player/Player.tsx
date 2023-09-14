@@ -3,6 +3,8 @@ import YouTube, { type YouTubeEvent } from 'react-youtube';
 
 import { useState } from '../../hooks';
 
+const ASPECT_RATIO = 0.5625; // 16:9
+
 export default function Player() {
   const intervalRef = useRef<number>();
   const state = useState();
@@ -12,6 +14,8 @@ export default function Player() {
   }
 
   const opts = {
+    height: state.width * ASPECT_RATIO,
+    width: state.width,
     playerVars: {
       start: state.timeStart,
     },
