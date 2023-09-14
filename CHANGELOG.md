@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/remarkablemark/youtube-loop/compare/v1.1.0...v1.2.0) (2023-09-14)
+
+
+### Features
+
+* add option width to resize player ([f9c06a6](https://github.com/remarkablemark/youtube-loop/commit/f9c06a6444808c3064891f7ab682a0e45d2b2481))
+
 ## [1.1.0](https://github.com/remarkablemark/youtube-loop/compare/v1.0.0...v1.1.0) (2023-09-11)
 
 
