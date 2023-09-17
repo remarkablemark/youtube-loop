@@ -18,7 +18,7 @@ export default function Options() {
         <div class="md:flex md:items-center">
           <div class="md:w-1/3">
             <label
-              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4"
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-300"
               for="videoId"
             >
               Video ID
@@ -42,7 +42,7 @@ export default function Options() {
         <div class="md:flex md:items-center mt-2">
           <div class="md:w-1/3">
             <label
-              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4"
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-300"
               for="timeStart"
             >
               Time Start
@@ -65,7 +65,7 @@ export default function Options() {
         <div class="md:flex md:items-center mt-2">
           <div class="md:w-1/3">
             <label
-              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4"
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-300"
               for="timeEnd"
             >
               Time End
@@ -88,7 +88,7 @@ export default function Options() {
         <div class="md:flex md:items-center mt-2">
           <div class="md:w-1/3">
             <label
-              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4"
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-300"
               for="width"
             >
               Width
