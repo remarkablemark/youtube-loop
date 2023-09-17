@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.0](https://github.com/remarkablemark/youtube-loop/compare/v1.2.0...v1.3.0) (2023-09-17)
+
+
+### Features
+
+* **components:** render DarkMode button ([d371df0](https://github.com/remarkablemark/youtube-loop/commit/d371df0daf0e04f25267602e9d9f6fa586a6c96e))
+* **components:** toggle darkmode in DarkMode ([c016029](https://github.com/remarkablemark/youtube-loop/commit/c0160297b47569f100b655e057749b291e2f7b63))
+* update colors and styles for dark mode ([c60678f](https://github.com/remarkablemark/youtube-loop/commit/c60678f080052f7467644ac56ba918fd1f8c25af))
+
 ## [1.2.0](https://github.com/remarkablemark/youtube-loop/compare/v1.1.0...v1.2.0) (2023-09-14)
 
 
