@@ -1,6 +1,7 @@
 # YouTube Loop
 
 [![version](https://badgen.net/github/release/remarkablemark/youtube-loop)](https://github.com/remarkablemark/youtube-loop/releases)
+[![cypress](https://github.com/remarkablemark/youtube-loop/actions/workflows/cypress.yml/badge.svg)](https://github.com/remarkablemark/youtube-loop/actions/workflows/cypress.yml)
 [![build](https://github.com/remarkablemark/youtube-loop/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/youtube-loop/actions/workflows/build.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/remarkablemark/youtube-loop)
 
