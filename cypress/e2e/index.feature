@@ -24,6 +24,13 @@ Feature: YouTube Loop
     Then I see input value "M7lc1UVf-VE"
       And I see URL "/?videoId=M7lc1UVf-VE"
 
+  Scenario: I see player options
+    Given I visit "/?videoId=bHQqvYy5KYo"
+    Then I see label "Video ID"
+      And I see label "Time Start"
+      And I see label "Time End"
+      And I see label "Width"
+
   Scenario: I set the player width
     Given I visit "/"
     When I find element by placeholder text "Paste YouTube URL"
@@ -34,9 +41,13 @@ Feature: YouTube Loop
     Then I find select by display value "1080"
       And I see URL "/?videoId=bHQqvYy5KYo&width=1080"
 
-  Scenario: I load the page with query params
+  Scenario: I load the page with options using query params
     Given I visit "/?videoId=bHQqvYy5KYo&timeStart=1&timeEnd=3&width=720"
-    Then I see input value "bHQqvYy5KYo"
-      And I find input by display value "1"
-      And I find input by display value "3"
-      And I find select by display value "720"
+    When I find input by label text "Video ID"
+    Then I see value "bHQqvYy5KYo"
+    When I find input by label text "Time Start"
+    Then I see value "1"
+    When I find input by label text "Time End"
+    Then I see value "3"
+    When I find input by label text "Width"
+    Then I see value "720"
