@@ -22,7 +22,7 @@
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "18.0.6",
     "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
-    "@commitlint/cli": "17.7.1",
+    "@commitlint/cli": "17.7.2",
     "@commitlint/config-conventional": "17.7.0",
     "@preact/preset-vite": "2.5.0",
     "@types/youtube": "0.0.48",
@@ -37,7 +37,7 @@
     "eslint-plugin-tsdoc": "0.2.17",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
-    "postcss": "8.4.30",
+    "postcss": "8.4.31",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2",
     "vite": "4.4.9"
