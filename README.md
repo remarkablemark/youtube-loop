@@ -60,7 +60,7 @@ Your app is ready to be deployed!
 
 ### `npm run lint`
 
-Runs ESLint
+Lints the codebase with ESLint.
 
 ## License
 
