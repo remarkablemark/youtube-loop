@@ -23,7 +23,7 @@
     "@badeball/cypress-cucumber-preprocessor": "19.1.1",
     "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
     "@commitlint/cli": "18.4.2",
-    "@commitlint/config-conventional": "18.4.2",
+    "@commitlint/config-conventional": "18.4.3",
     "@preact/preset-vite": "2.7.0",
     "@types/youtube": "0.0.50",
     "@typescript-eslint/eslint-plugin": "6.11.0",
