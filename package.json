@@ -30,7 +30,7 @@
     "@typescript-eslint/parser": "6.12.0",
     "autoprefixer": "10.4.16",
     "cypress": "13.6.0",
-    "cypress-cucumber-steps": "3.23.0",
+    "cypress-cucumber-steps": "3.25.0",
     "eslint": "8.54.0",
     "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-simple-import-sort": "10.0.0",
