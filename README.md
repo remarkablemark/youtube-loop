@@ -5,7 +5,7 @@
 [![build](https://github.com/remarkablemark/youtube-loop/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/youtube-loop/actions/workflows/build.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/remarkablemark/youtube-loop)
 
-:tv: Loop YouTube videos: https://b.remarkabl.org/youtube-loop
+📺 Loop YouTube videos: https://b.remarkabl.org/youtube-loop
 
 Built with:
 
