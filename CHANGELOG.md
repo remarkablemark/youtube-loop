@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/remarkablemark/youtube-loop/compare/v1.3.0...v1.3.1) (2023-12-24)
+
+
+### Bug Fixes
+
+* update Google Analytics ID ([c0e9486](https://github.com/remarkablemark/youtube-loop/commit/c0e9486a90c9e7d723c38cc7daa1c3f0f60692e4))
+
 ## [1.3.0](https://github.com/remarkablemark/youtube-loop/compare/v1.2.0...v1.3.0) (2023-09-17)
 
 
