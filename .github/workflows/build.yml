@@ -22,9 +22,9 @@ jobs:
         run: npm install
 
       - name: Build app
-        run: npm run build
+        run: npm run build -- --base /${{ github.event.repository.name }}/
         env:
-          VITE_BASE_URL: /${{ github.event.repository.name }}/
+          VITE_GOOGLE_ANALYTICS_ID: ${{ vars.GOOGLE_ANALYTICS_ID }}
 
       - name: Deploy
         if: github.ref == 'refs/heads/master'
