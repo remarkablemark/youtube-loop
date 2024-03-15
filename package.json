@@ -24,7 +24,7 @@
     "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
     "@commitlint/cli": "19.1.0",
     "@commitlint/config-conventional": "19.1.0",
-    "@preact/preset-vite": "2.8.1",
+    "@preact/preset-vite": "2.8.2",
     "@types/youtube": "0.0.50",
     "@typescript-eslint/eslint-plugin": "7.2.0",
     "@typescript-eslint/parser": "7.2.0",
