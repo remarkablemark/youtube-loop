@@ -14,7 +14,7 @@
     "start": "vite --open"
   },
   "dependencies": {
-    "preact": "10.20.0",
+    "preact": "10.20.1",
     "react-youtube": "10.1.0",
     "youtube-video-id": "1.0.3",
     "zustand": "4.5.2"
