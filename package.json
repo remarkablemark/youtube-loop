@@ -22,7 +22,7 @@
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "20.0.4",
     "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
-    "@commitlint/cli": "19.2.2",
+    "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
     "@preact/preset-vite": "2.8.2",
     "@types/youtube": "0.0.50",
