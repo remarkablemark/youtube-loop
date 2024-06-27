@@ -17,7 +17,7 @@
     "preact": "10.22.0",
     "react-youtube": "10.1.0",
     "youtube-video-id": "1.0.3",
-    "zustand": "4.5.3"
+    "zustand": "4.5.4"
   },
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "20.1.0",
