@@ -27,8 +27,7 @@ jobs:
           VITE_GOOGLE_ANALYTICS_ID: ${{ vars.GOOGLE_ANALYTICS_ID }}
 
       - name: Deploy
-        if: github.ref == 'refs/heads/master'
-        uses: JamesIves/github-pages-deploy-action@v4
+        if: github.ref_name == 'master'
+        uses: remarkablemark/gitploy-action@v1
         with:
-          branch: gh-pages
-          folder: dist
+          directory: dist
