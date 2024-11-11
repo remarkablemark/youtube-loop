@@ -46,7 +46,7 @@ export default function Player() {
   );
 
   return (
-    <div class="flex justify-center mt-4">
+    <div class="mt-4 flex justify-center">
       <div class="container flex justify-center">
         {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
         {/* @ts-ignore */}

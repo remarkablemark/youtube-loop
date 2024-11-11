@@ -12,13 +12,13 @@ export default function Options() {
   }
 
   return (
-    <div class="flex justify-center my-10">
+    <div class="my-10 flex justify-center">
       <form class="w-full max-w-sm">
         {/* videoId */}
         <div class="md:flex md:items-center">
           <div class="md:w-1/3">
             <label
-              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-300"
+              class="mb-1 block pr-4 text-xs font-bold uppercase tracking-wide text-gray-700 md:mb-0 md:text-right dark:text-gray-300"
               for="videoId"
             >
               Video ID
@@ -27,7 +27,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <input
-              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-red-600"
+              class="w-full appearance-none rounded border-2 border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-none"
               id="videoId"
               onInput={onInputVideoId}
               placeholder="YouTube video ID"
@@ -39,10 +39,10 @@ export default function Options() {
         </div>
 
         {/* timeStart */}
-        <div class="md:flex md:items-center mt-2">
+        <div class="mt-2 md:flex md:items-center">
           <div class="md:w-1/3">
             <label
-              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-300"
+              class="mb-1 block pr-4 text-xs font-bold uppercase tracking-wide text-gray-700 md:mb-0 md:text-right dark:text-gray-300"
               for="timeStart"
             >
               Time Start
@@ -51,7 +51,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <input
-              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-red-600"
+              class="w-full appearance-none rounded border-2 border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-none"
               id="timeStart"
               onInput={onInputTimeStart}
               placeholder="Seconds"
@@ -62,10 +62,10 @@ export default function Options() {
         </div>
 
         {/* timeEnd */}
-        <div class="md:flex md:items-center mt-2">
+        <div class="mt-2 md:flex md:items-center">
           <div class="md:w-1/3">
             <label
-              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-300"
+              class="mb-1 block pr-4 text-xs font-bold uppercase tracking-wide text-gray-700 md:mb-0 md:text-right dark:text-gray-300"
               for="timeEnd"
             >
               Time End
@@ -74,7 +74,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <input
-              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-red-600"
+              class="w-full appearance-none rounded border-2 border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-none"
               id="timeEnd"
               onInput={onInputTimeEnd}
               placeholder="Seconds"
@@ -85,10 +85,10 @@ export default function Options() {
         </div>
 
         {/* width */}
-        <div class="md:flex md:items-center mt-2">
+        <div class="mt-2 md:flex md:items-center">
           <div class="md:w-1/3">
             <label
-              class="block uppercase tracking-wide text-gray-700 text-xs font-bold md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-300"
+              class="mb-1 block pr-4 text-xs font-bold uppercase tracking-wide text-gray-700 md:mb-0 md:text-right dark:text-gray-300"
               for="width"
             >
               Width
@@ -97,7 +97,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <select
-              class="bg-gray-200 border-2 border-gray-200 rounded w-full py-2 p-2.5 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-red-600"
+              class="w-full rounded border-2 border-gray-200 bg-gray-200 p-2.5 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-none"
               id="width"
               onInput={onInputWidth}
             >

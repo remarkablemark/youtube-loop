@@ -13,15 +13,15 @@ export default function Input() {
       <form class="container mx-4">
         <label
           for="youtubeUrl"
-          class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+          class="sr-only mb-2 text-sm font-medium text-gray-900 dark:text-white"
         >
           Paste YouTube URL
         </label>
 
         <div class="relative">
-          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
             <svg
-              class="w-4 h-4 text-gray-500 dark:text-gray-400"
+              class="h-4 w-4 text-gray-500 dark:text-gray-400"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -38,7 +38,7 @@ export default function Input() {
           </div>
 
           <input
-            class="block border-2 w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 placeholder-gray-600 rounded-lg bg-gray-50 focus:ring-red-600 focus:border-red-600 dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-red-600 dark:focus:border-red-600 focus:outline-none"
+            class="block w-full rounded-lg border border-2 border-gray-300 bg-gray-50 p-4 pl-10 text-sm text-gray-900 placeholder-gray-600 focus:border-red-600 focus:outline-none focus:ring-red-600 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:placeholder-gray-300 dark:focus:border-red-600 dark:focus:ring-red-600"
             id="youtubeUrl"
             placeholder="Paste YouTube URL"
             required
