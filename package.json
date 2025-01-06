@@ -27,7 +27,7 @@
     "@eslint/compat": "1.2.4",
     "@eslint/eslintrc": "3.2.0",
     "@eslint/js": "9.17.0",
-    "@preact/preset-vite": "2.9.3",
+    "@preact/preset-vite": "2.9.4",
     "@types/youtube": "0.1.0",
     "@typescript-eslint/eslint-plugin": "8.19.0",
     "@typescript-eslint/parser": "8.19.0",
