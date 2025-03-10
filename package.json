@@ -31,7 +31,7 @@
     "@types/youtube": "0.1.0",
     "@typescript-eslint/eslint-plugin": "8.26.0",
     "@typescript-eslint/parser": "8.26.0",
-    "autoprefixer": "10.4.20",
+    "autoprefixer": "10.4.21",
     "cypress": "14.1.0",
     "cypress-cucumber-steps": "3.63.0",
     "eslint": "9.21.0",
