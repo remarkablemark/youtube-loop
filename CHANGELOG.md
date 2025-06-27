@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.2 (2025-06-27)
+
+
+### Miscellaneous Chores
+
+* release 1.3.2 ([b6bd383](https://github.com/remarkablemark/youtube-loop/commit/b6bd3835dd502b95d465ddfcc3a3de2312a7b3cc))
+
 ## [1.3.2](https://github.com/remarkablemark/youtube-loop/compare/v1.3.1...v1.3.2) (2024-10-02)
 
 ### Miscellaneous Chores
