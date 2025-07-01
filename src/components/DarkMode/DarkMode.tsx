@@ -28,7 +28,7 @@ export default function DarkMode() {
 
   return (
     <div class="flex justify-center">
-      <label class="container relative my-4 inline-flex cursor-pointer items-center">
+      <label class="relative container my-4 inline-flex cursor-pointer items-center">
         <input
           type="checkbox"
           value={String(isDarkMode)}
@@ -36,7 +36,7 @@ export default function DarkMode() {
         />
 
         <div
-          class="peer h-6 w-11 rounded-full bg-gray-200 after:absolute after:left-[2px] after:top-0.5 after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:ring-4 peer-focus:ring-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:peer-focus:ring-gray-800"
+          class="peer h-6 w-11 rounded-full bg-gray-200 peer-checked:bg-gray-600 peer-focus:ring-4 peer-focus:ring-gray-300 after:absolute after:top-0.5 after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:after:translate-x-full peer-checked:after:border-white dark:border-gray-600 dark:bg-gray-700 dark:peer-focus:ring-gray-800"
           // @ts-expect-error Property 'type' does not exist on type
           type="button"
           onClick={onClick}
