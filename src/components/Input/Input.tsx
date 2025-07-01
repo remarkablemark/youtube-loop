@@ -38,7 +38,7 @@ export default function Input() {
           </div>
 
           <input
-            class="block w-full rounded-lg border border-2 border-gray-300 bg-gray-50 p-4 pl-10 text-sm text-gray-900 placeholder-gray-600 focus:border-red-600 focus:outline-none focus:ring-red-600 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:placeholder-gray-300 dark:focus:border-red-600 dark:focus:ring-red-600"
+            class="block w-full rounded-lg border border-2 border-gray-300 bg-gray-50 p-4 pl-10 text-sm text-gray-900 placeholder-gray-600 focus:border-red-600 focus:ring-red-600 focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:placeholder-gray-300 dark:focus:border-red-600 dark:focus:ring-red-600"
             id="youtubeUrl"
             placeholder="Paste YouTube URL"
             required

@@ -18,7 +18,7 @@ export default function Options() {
         <div class="md:flex md:items-center">
           <div class="md:w-1/3">
             <label
-              class="mb-1 block pr-4 text-xs font-bold uppercase tracking-wide text-gray-700 md:mb-0 md:text-right dark:text-gray-300"
+              class="mb-1 block pr-4 text-xs font-bold tracking-wide text-gray-700 uppercase md:mb-0 md:text-right dark:text-gray-300"
               for="videoId"
             >
               Video ID
@@ -27,7 +27,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <input
-              class="w-full appearance-none rounded border-2 border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-none"
+              class="w-full appearance-none rounded-sm border-2 border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-hidden"
               id="videoId"
               onInput={onInputVideoId}
               placeholder="YouTube video ID"
@@ -42,7 +42,7 @@ export default function Options() {
         <div class="mt-2 md:flex md:items-center">
           <div class="md:w-1/3">
             <label
-              class="mb-1 block pr-4 text-xs font-bold uppercase tracking-wide text-gray-700 md:mb-0 md:text-right dark:text-gray-300"
+              class="mb-1 block pr-4 text-xs font-bold tracking-wide text-gray-700 uppercase md:mb-0 md:text-right dark:text-gray-300"
               for="timeStart"
             >
               Time Start
@@ -51,7 +51,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <input
-              class="w-full appearance-none rounded border-2 border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-none"
+              class="w-full appearance-none rounded-sm border-2 border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-hidden"
               id="timeStart"
               onInput={onInputTimeStart}
               placeholder="Seconds"
@@ -65,7 +65,7 @@ export default function Options() {
         <div class="mt-2 md:flex md:items-center">
           <div class="md:w-1/3">
             <label
-              class="mb-1 block pr-4 text-xs font-bold uppercase tracking-wide text-gray-700 md:mb-0 md:text-right dark:text-gray-300"
+              class="mb-1 block pr-4 text-xs font-bold tracking-wide text-gray-700 uppercase md:mb-0 md:text-right dark:text-gray-300"
               for="timeEnd"
             >
               Time End
@@ -74,7 +74,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <input
-              class="w-full appearance-none rounded border-2 border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-none"
+              class="w-full appearance-none rounded-sm border-2 border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-hidden"
               id="timeEnd"
               onInput={onInputTimeEnd}
               placeholder="Seconds"
@@ -88,7 +88,7 @@ export default function Options() {
         <div class="mt-2 md:flex md:items-center">
           <div class="md:w-1/3">
             <label
-              class="mb-1 block pr-4 text-xs font-bold uppercase tracking-wide text-gray-700 md:mb-0 md:text-right dark:text-gray-300"
+              class="mb-1 block pr-4 text-xs font-bold tracking-wide text-gray-700 uppercase md:mb-0 md:text-right dark:text-gray-300"
               for="width"
             >
               Width
@@ -97,7 +97,7 @@ export default function Options() {
 
           <div class="md:w-2/3">
             <select
-              class="w-full rounded border-2 border-gray-200 bg-gray-200 p-2.5 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-none"
+              class="w-full rounded-sm border-2 border-gray-200 bg-gray-200 p-2.5 py-2 leading-tight text-gray-700 focus:border-red-600 focus:bg-white focus:outline-hidden"
               id="width"
               onInput={onInputWidth}
             >
