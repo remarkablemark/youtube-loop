@@ -20,7 +20,7 @@
     "zustand": "5.0.8"
   },
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "22.2.0",
+    "@badeball/cypress-cucumber-preprocessor": "23.0.0",
     "@bahmutov/cypress-esbuild-preprocessor": "2.2.5",
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
