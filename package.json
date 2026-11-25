@@ -40,7 +40,7 @@
     "eslint-plugin-tsdoc": "0.5.4",
     "globals": "17.14.0",
     "husky": "9.1.7",
-    "lint-staged": "17.6.1",
+    "lint-staged": "17.6.2",
     "postcss": "8.5.33",
     "prettier": "3.10.1",
     "prettier-plugin-tailwindcss": "0.8.1",
